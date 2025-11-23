@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https:https://github.com/Leelachandra1050/leela-web.git'
+                git branch: 'main', url: 'https://github.com/Leelachandra1050/leela-web.git'
             }
         }
     
